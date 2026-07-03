@@ -16,18 +16,33 @@ html {
 
 .left-container {
   flex: 0.4;
-  background-color: white; /* Light gray background */
+  background-color: white;
+  background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+}
 .right-container {
   flex: 0.6;
-  background-color: black; /* White background */
+  background-color: white;
 }
 .transparent-box {
-  position: relative; 
+  position: relative;
   top: 200px;
-  background-color: green;
-  padding: 60px;
-  border-radius: 10px;
-  
+  background-color: rgba(0, 0, 0, 0.5); /* White with 80% opacity */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 620px; /* pick whatever size you want the box to be */
+  height: 150px;
+}
+
+.transparent-box img {
+  background-color: opaque;
+  max-width: 100%;
+  max-height: 100%;
 }
