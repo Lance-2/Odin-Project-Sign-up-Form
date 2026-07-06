@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Norse"; 
+  src: url("fonts/Norse.otf") format("opentype");
+}
 * {
   margin: 0;
   padding: 0;
@@ -27,6 +31,7 @@ html {
 h1 {
   color: white;
   text-align: center;
+  font-family: "Norse";
 }
 h2 {
   color: white;
@@ -41,8 +46,27 @@ a:visited {
 
 .right-container {
   flex: 0.6;
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+
 }
+.upper-part {
+  background-color: white;
+  flex: 1;
+}
+
+.middle-part {
+  background-color: gray;
+  flex: 1;
+  
+}
+
+.lower-part {
+  background-color: red;
+  flex: 1;
+}
+
+
 .transparent-box {
   position: relative;
   top: 200px;
