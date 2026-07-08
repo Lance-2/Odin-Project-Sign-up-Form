@@ -54,11 +54,22 @@ a:visited {
   background-color: white;
   flex: 1;
 }
+.description {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: bottom;
+  margin: 40px;
+}
 
 .middle-part {
   background-color: gray;
-  flex: 1;
-  
+  flex: 1; 
+}
+.mid_description {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: bottom;
+  margin: 20px;
 }
 
 .lower-part {
